@@ -21,6 +21,7 @@ Proyecto final de carrera, el cual consiste en un sistema web para comercio elec
 ###### Nota
 
 <sub>
+  
 *- Las imágenes usadas para la elaboración del proyecto son con fines educativos. No soy dueño de los diseños o accesorios presentados en el sistema. Cada imagen pertenece a sus creadores.*
 
 *- El sistema de pago es una DEMO, las transacciones realizadas en modo de prueba están bajo su propia responsabilidad.*
