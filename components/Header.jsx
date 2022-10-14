@@ -37,7 +37,7 @@ function Header() {
               className="text-stone-900 hover:text-lime-500 
         cursor-pointer"
             >
-              GIOVANNI&quot;S
+              GIOVANNI
             </span>
             <span
               className="text-lime-500 hover:text-stone-900 
