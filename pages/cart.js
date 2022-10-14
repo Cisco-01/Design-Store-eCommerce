@@ -33,7 +33,7 @@ function CartScreen() {
       {cartItems.length === 0 ? (
         <div className="flex">
           El carrito está vacío.&nbsp;
-          <Link href="/store">
+          <Link href="/store" passHref>
             <div className="flex items-center">
               Ir a la tienda&nbsp;
               <ShoppingBagIcon className="h-5 w-5 cursor-pointer"></ShoppingBagIcon>
@@ -56,7 +56,7 @@ function CartScreen() {
                 {cartItems.map((item) => (
                   <tr key={item.slug} className="border-b">
                     <td>
-                      <Link href={`/product/${item.slug}`}>
+                      <Link href={`/product/${item.slug}`} passHref>
                         <div className="flex items-center">
                           <Image
                             src={item.image}

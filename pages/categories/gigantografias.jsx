@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import data from "../../utils/data";
@@ -39,11 +40,11 @@ function Gigantografias() {
           >
             {data.gigantografiasImgs.map((item) => (
               <div key={item.id} className="my-3">
-                <img
+                <Image
                   loading="lazy"
                   decoding="async"
                   src={item.bigImg}
-                  alt=""
+                  alt={item.name}
                   className="first-line:w-full h-full rounded-md opacity-90 md:mb-4 mx-auto"
                 />
                 <h1 className="my-2 uppercase font-bold text-xl">

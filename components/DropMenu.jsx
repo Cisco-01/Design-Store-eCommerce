@@ -111,7 +111,7 @@ function DropMenu() {
           </Menu.Items>
         </Menu>
       ) : (
-        <Link href="/login">
+        <Link href="/login" passHref>
           <button
             className="hover:rounded-md 
                 cursor-pointer p-2 my-2

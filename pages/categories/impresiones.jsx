@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Layout from "../../components/Layout";
 import data from "../../utils/data";
 
@@ -34,11 +35,11 @@ function Impresiones() {
           <div className="w-full p-2 grid md:grid-cols-2 xl:grid-cols-3 items-center justify-center py-5 px-5 cursor-default md:space-x-20">
             {data.impresionesImgs.map((item) => (
               <div key={item.id} className="my-12 md:my-6">
-                <img
+                <Image
                   loading="lazy"
                   decoding="async"
                   src={item.bigImg}
-                  alt=""
+                  alt={item.name}
                   className="w-full h-full rounded-md opacity-90 md:mb-4 mx-auto"
                 />
                 <h1 className="my-2 uppercase font-bold text-xl">

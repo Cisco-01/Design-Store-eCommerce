@@ -1,5 +1,6 @@
 import data from "../../utils/data";
 import Layout from "../../components/Layout";
+import Image from "next/image";
 
 function Promocionales() {
   return (
@@ -35,11 +36,11 @@ function Promocionales() {
           >
             {data.promocionalesImgs.map((item) => (
               <div key={item.id} className="my-3">
-                <img
+                <Image
                   loading="lazy"
                   decoding="async"
                   src={item.bigImg}
-                  alt=""
+                  alt={item.name}
                   className="w-full h-full rounded-md opacity-90 mx-auto md:mb-4"
                 />
                 <h1 className="my-2 uppercase font-bold text-xl">

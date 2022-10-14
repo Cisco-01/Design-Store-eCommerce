@@ -1,4 +1,4 @@
-import DatosEmpresa from "../components/DatosEmpresa";
+//import DatosEmpresa from "../components/DatosEmpresa";
 import Layout from "../components/Layout";
 import { useForm } from "react-hook-form";
 import { useState } from "react";

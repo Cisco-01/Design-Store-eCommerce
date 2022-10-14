@@ -33,7 +33,7 @@ export default function ProductScreen(props) {
   return (
     <Layout title={product.name}>
       <div className="container m-auto mt-4 px-4">
-        <Link href="/">
+        <Link href="/" passHref>
           <button className="my-3 border-b-2 border-b-lime-500">
             Regresar a los servicios
           </button>

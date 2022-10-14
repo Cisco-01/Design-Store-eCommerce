@@ -37,7 +37,7 @@ function Header() {
               className="text-stone-900 hover:text-lime-500 
         cursor-pointer"
             >
-              GIOVANNI'S
+              GIOVANNI&quot;S
             </span>
             <span
               className="text-lime-500 hover:text-stone-900 
@@ -122,7 +122,7 @@ function Header() {
               </Menu.Items>
             </Menu>
           ) : (
-            <Link href="/login">
+            <Link href="/login" passHref>
               <button
                 className="hover:rounded-md 
                     cursor-pointer p-2 my-2
