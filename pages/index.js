@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Header />
       <div
-        className="grid md:grid-cols-2 m-auto space-x-8 space-y-8 h-scren
+        className="grid md:grid-cols-2 m-auto space-x-8 space-y-8 h-screen
             bg-[url('https://1.bp.blogspot.com/-_B1NQqcUjG4/X58l93-TU-I/AAAAAAAAIAc/D464CPe7jjEm0XrZ7HNSNE8CsUPE2GBfQCLcBGAsYHQ/s960/background-ppt-white-shades.jpg')] bg-cover bg-fixed bg-no-repeat"
       >
         {data.services.map((item) => (
