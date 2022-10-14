@@ -43,7 +43,7 @@ function Header() {
               className="text-lime-500 hover:text-stone-900 
         cursor-pointer"
             >
-              DESIGN
+              DESIGNS
             </span>
           </div>
         </Link>
