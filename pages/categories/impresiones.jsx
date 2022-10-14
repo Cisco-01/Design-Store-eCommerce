@@ -6,11 +6,11 @@ function Impresiones() {
   return (
     <Layout title="Impresiones">
       <div className="py-5 px-2 flex flex-col items-center mx-auto text-center">
-        <h1 className="uppercase my-5 text-5xl">
+        <h1 className="uppercase my-5 text-2xl">
           Impresión de papelería, etiquetas adhesivas e impresión a Color
           Inkjet.
         </h1>
-        <p className="text-2xl text-zinc-700 w-8/12 mb-3">
+        <p className="text-base text-zinc-700 w-8/12 mb-3">
           Servicio de impresión digital en papel fotográfico, perlado, bond
           backlit film, imprenta offSet e imprenta en general.
         </p>
@@ -38,6 +38,8 @@ function Impresiones() {
                 <Image
                   loading="lazy"
                   decoding="async"
+                  width={300}
+                  height={250}
                   src={item.bigImg}
                   alt={item.name}
                   className="w-full h-full rounded-md opacity-90 md:mb-4 mx-auto"

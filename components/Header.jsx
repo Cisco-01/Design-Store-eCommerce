@@ -30,9 +30,9 @@ function Header() {
   };
   return (
     <header className="sticky top-0 z-50 bg-slate-200">
-      <nav className="flex h-24 items-center px-12 justify-between shadow-md">
+      <nav className="flex h-24 items-center justify-around shadow-md">
         <Link href={`/`} passHref>
-          <div className="lg:ml-5 txtHeader text-4xl flex space-x-2">
+          <div className="ml-5 text-2xl md:text-4xl flex space-x-2">
             <span
               className="text-stone-900 hover:text-lime-500 
         cursor-pointer"
@@ -125,7 +125,7 @@ function Header() {
             <Link href="/login" passHref>
               <button
                 className="hover:rounded-md 
-                    cursor-pointer p-2 my-2
+                    cursor-pointer
                     hover:shadow-md hover:text-red-400 hover:scale-110
                     hover:duration-500"
               >

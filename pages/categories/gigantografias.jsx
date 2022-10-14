@@ -8,10 +8,10 @@ function Gigantografias() {
     <>
       <Header />
       <div className="py-5 px-2 flex flex-col items-center text-center mx-auto">
-        <h1 className="uppercase my-5 text-5xl">
+        <h1 className="uppercase my-5 text-2xl">
           Impresión digital de Gigantografías en gran formato
         </h1>
-        <p className="text-2xl text-zinc-700 w-8/12 mb-3">
+        <p className="text-base text-zinc-700 w-8/12 mb-3">
           Impresión en vinil adhesivo y banner front Alta resolución 1440 dpi a
           6 pasadas, Impresión de displays y parantes publicitarios.
         </p>
@@ -42,6 +42,8 @@ function Gigantografias() {
               <div key={item.id} className="my-3">
                 <Image
                   loading="lazy"
+                  width={300}
+                  height={250}
                   decoding="async"
                   src={item.bigImg}
                   alt={item.name}

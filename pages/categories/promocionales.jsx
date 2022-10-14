@@ -6,10 +6,10 @@ function Promocionales() {
   return (
     <Layout title="Promocionales">
       <div className="py-5 px-2 flex flex-col items-center text-center mx-auto w-full">
-        <h1 className="uppercase my-5 text-5xl">
+        <h1 className="uppercase my-5 text-2xl">
           Articulos Promocionales, regalos personalizados y corporativos.
         </h1>
-        <p className="text-2xl text-zinc-700 w-8/12 mb-3">
+        <p className="text-base text-zinc-700 w-8/12 mb-3">
           Mugs, tazas, hoodies y poleras personalizadas.
         </p>
         <a
@@ -39,6 +39,8 @@ function Promocionales() {
                 <Image
                   loading="lazy"
                   decoding="async"
+                  width={450}
+                  height={300}
                   src={item.bigImg}
                   alt={item.name}
                   className="w-full h-full rounded-md opacity-90 mx-auto md:mb-4"

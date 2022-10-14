@@ -11,10 +11,10 @@ function WebPages() {
     bg-[url('https://www.espacios.net.mx/wp-content/uploads/2017/10/2017-09-19-11.48.22.jpg')] bg-center bg-fixed"
       >
         <div className="w-screen lg:h-screen bg-gradient-to-t from-transparent to-black px-4">
-          <h1 className="uppercase my-5 text-5xl text-gray-200">
+          <h1 className="uppercase my-5 text-2xl text-gray-200">
             Hosting Económico desde 140 Soles al año
           </h1>
-          <p className="text-2xl text-gray-400 mx-auto mb-3">
+          <p className="text-base text-gray-400 mx-auto mb-3">
             Alojamiento Web en Servidores Linux registro de dominios .com, .pe.
             Contamos con la mejor infraestructura del pais, planes escalonados a
             la medida de su empresa. Asesoría y Soporte técnico.

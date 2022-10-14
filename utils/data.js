@@ -24,7 +24,7 @@ const data = {
   services: [
     {
       id: 1,
-      title: "gigantografías y Displays",
+      title: "Banners y Displays",
       icon: <SwatchIcon />,
       url: "gigantografias",
       desc:
@@ -39,7 +39,7 @@ const data = {
     },
     {
       id: 2,
-      title: "Imprenta INKJET y a color",
+      title: "Imprenta INKJET",
       icon: <FingerPrintIcon />,
       url: "impresiones",
       desc:
@@ -52,7 +52,7 @@ const data = {
     },
     {
       id: 3,
-      title: "Articulos Promocionales",
+      title: "Estampados",
       icon: <GiftIcon />,
       url: "promocionales",
       desc:
@@ -63,7 +63,7 @@ const data = {
 
     {
       id: 4,
-      title: "Diseño y desarrollo Web",
+      title: "Desarrollo Web",
       icon: <GlobeAltIcon />,
       url: "web-pages",
       desc:

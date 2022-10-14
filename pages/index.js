@@ -1,21 +1,19 @@
 import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Layout from "../components/Layout";
 //import Layout from "../components/Layout";
 import data from "../utils/data";
 
 const Home = () => {
   return (
-    <>
-      <Header />
+    <Layout title="Categorias">
       <div
-        className="grid md:grid-cols-2 m-auto space-x-8 space-y-8 h-full
-            bg-[url('https://1.bp.blogspot.com/-_B1NQqcUjG4/X58l93-TU-I/AAAAAAAAIAc/D464CPe7jjEm0XrZ7HNSNE8CsUPE2GBfQCLcBGAsYHQ/s960/background-ppt-white-shades.jpg')] bg-cover bg-fixed bg-no-repeat"
-      >
+        className="grid md:grid-cols-2 min-h-screen w-full m-auto">
         {data.services.map((item) => (
           <div
             key={item.id}
-            className="px-4 m-auto text-center items-center normal-case text-lg text-stone-900"
+            className="px-4 m-auto text-center items-center normal-case text-lg text-stone-900 justify-center"
           >
             <div className="h-14 w-14 m-auto mb-3 hover:text-gray-600">
               {item.icon}
@@ -29,8 +27,7 @@ const Home = () => {
           </div>
         ))}
       </div>
-      <Footer />
-    </>
+    </Layout>
   );
 };
 

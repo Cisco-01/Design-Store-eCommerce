@@ -114,7 +114,7 @@ function DropMenu() {
         <Link href="/login" passHref>
           <button
             className="hover:rounded-md 
-                cursor-pointer p-2 my-2
+                cursor-pointer mr-10
                 hover:shadow-md hover:text-red-400 hover:scale-110
                 hover:duration-500"
           >
