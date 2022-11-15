@@ -6,7 +6,7 @@
 
 ## About This Project
 
-E-commerce enfocado a una empresa de diseño, desarrollado siguiendo el marco de trabajo Scrum y la metodología RUP. Facilidad de solicitar cotizaciones redirigiendo al WhatsApp de la empresa, admite pagos mediante Paypal y tarjetas de crédito.
+E-commerce enfocado a una empresa de diseño, desarrollado siguiendo el marco de trabajo Scrum y la metodología RUP. Facilidad de solicitar cotizaciones redirigiendo al WhatsApp de la empresa, admite pagos mediante PayPal y tarjetas de crédito.
 
 ## Tech Used
 <img align="left" alt="NextJS" width="40px" height="40px" src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png" />
