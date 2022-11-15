@@ -11,7 +11,7 @@ export default function Layout({ title, children }) {
         <title>
           {title ? title + " - Designs Company" : "Giovanni's Designs"}
         </title>
-        <meta name="description" content="Danny Ecommerce" />
+        <meta name="description" content="Giovanni Ecommerce" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ToastContainer position="bottom-center" limit={1} />
