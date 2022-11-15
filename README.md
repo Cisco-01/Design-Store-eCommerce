@@ -22,6 +22,6 @@ Password: 123456
 
 ###### Nota
 
-<sub>- Las imágenes usadas para la elaboración del proyecto son con fines educativos.
-  No soy dueño de los diseños o accesorios presentados en el sistema. Cada imagen pertenece a sus creadores. *- El sistema de pago es una DEMO, las transacciones realizadas van a una cuenta de PayPal de prueba y están bajo su propia responsabilidad.*
-</sub>
+<sub>* *Las imágenes o recursos utilizados no son de mi propiedad, el fin del proyecto es para desarrollo personal y profesional mas no lucrativo. Cada imagen pertenece a sus creadores.*</sub>
+<br/>
+<sub>* *El sistema de pago es una DEMO, las transacciones realizadas van a una cuenta de PayPal de prueba y están bajo su propia responsabilidad.*</sub>
