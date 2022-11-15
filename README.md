@@ -2,11 +2,15 @@
 
 ![giovanni's designs](/public/app.png)
 
-· DEMO    :  https://giovanni-designs.vercel.app
+· <a href="https://giovanni-designs.vercel.app" target="_blank" rel="noopener noreferrer">DEMO</a>
 
 ## About This Project
 
 E-commerce enfocado a una empresa de diseño, desarrollado siguiendo el marco de trabajo Scrum y la metodología RUP. Diseño de interfaz responsiva, cuenta con un dashboard, admite pagos mediante PayPal y tarjetas de crédito.
+
+## Admin Credentials
+Email: giovanni@gmail.com
+Password: 123456
 
 ## Tech Used
 <img align="left" alt="NextJS" width="40px" height="40px" src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png" />
