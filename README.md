@@ -19,5 +19,5 @@ E-commerce enfocado a una empresa de diseño, desarrollado siguiendo el marco de
 ###### Nota
 
 <sub>- Las imágenes usadas para la elaboración del proyecto son con fines educativos.
-  No soy dueño de los diseños o accesorios presentados en el sistema. Cada imagen pertenece a sus creadores. *- El sistema de pago es una DEMO, las transacciones realizadas en modo de prueba están bajo su propia responsabilidad.*
+  No soy dueño de los diseños o accesorios presentados en el sistema. Cada imagen pertenece a sus creadores. *- El sistema de pago es una DEMO, las transacciones realizadas van a una cuenta de PayPal de prueba y están bajo su propia responsabilidad.*
 </sub>
