@@ -10,7 +10,6 @@ function Map() {
           id="gmap_canvas"
           title="mapa"
           src="https://maps.google.com/maps?q=chiclayo&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          scrolling="no"
         ></iframe>
       </div>
     </div>

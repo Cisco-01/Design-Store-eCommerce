@@ -1,13 +1,12 @@
-import Link from "next/link";
-import Layout from "../components/Layout";
-import data from "../utils/data";
+import Link from 'next/link';
+import Layout from '../components/Layout';
+import data from '../utils/data';
 
-const Home = () => {
+function Home({ title }) {
   return (
-    <Layout title="Categorias">
-      <div
-        className="grid md:grid-cols-2 min-h-screen w-full m-auto">
-        {data.services.map((item) => (
+    <Layout title={title}>
+      <div className="grid md:grid-cols-2 min-h-screen w-full m-auto">
+        {data.services.map(item => (
           <div
             key={item.id}
             className="px-4 m-auto text-center items-center normal-case text-lg text-stone-900 justify-center"
@@ -26,6 +25,6 @@ const Home = () => {
       </div>
     </Layout>
   );
-};
+}
 
 export default Home;

@@ -1,11 +1,12 @@
 function BtnWsp() {
+  var mensaje = 'realizar una cotización';
   return (
     <div
       className="block w-16 h-16 fixed right-5 bottom-5 rounded-full
     text-center z-10 hover:scale-110 animate-pulse"
     >
       <a
-        href="https://api.whatsapp.com/send?phone=51938151392&text=Hey%2C%20quiero%20un%20diseño!"
+        href={`https://api.whatsapp.com/send?phone=51938151392&text=Hola%2C%20quiero%20${mensaje}!`}
         target="_blank"
         rel="noopener noreferrer"
       >

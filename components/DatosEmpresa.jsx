@@ -10,19 +10,19 @@ function DatosEmpresa() {
     <>
       <div className="grid grid-cols-2 lg:flex mx-auto text-center justify-evenly mt-[-65px]">
         <p>
-          <MapIcon className="h-10 w-10 mx-auto my-2 hover:fill-teal-500" />
+          <MapIcon className="h-10 w-10 mx-auto my-2" />
           Chiclayo, Perú
         </p>
         <p>
-          <EnvelopeIcon className="h-10 w-10 mx-auto my-2 hover:fill-red-500" />
+          <EnvelopeIcon className="h-10 w-10 mx-auto my-2" />
           ventas@designs.com
         </p>
         <p>
-          <PhoneIcon className="h-10 w-10 mx-auto my-2 hover:fill-indigo-500" />
+          <PhoneIcon className="h-10 w-10 mx-auto my-2" />
           938151392
         </p>
         <p>
-          <ClockIcon className="h-10 w-10 mx-auto my-2 hover:fill-amber-800" />
+          <ClockIcon className="h-10 w-10 mx-auto my-2" />
           Lun a Sab 9:00 am a 8:00 pm, Dom 9:00 am a 3:00 pm
         </p>
       </div>

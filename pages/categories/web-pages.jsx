@@ -1,8 +1,9 @@
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import data from "../../utils/data";
+import Footer from '../../components/Footer';
+import Header from '../../components/Header';
+import data from '../../utils/data';
 
 function WebPages() {
+  var mensaje = 'una página web';
   return (
     <>
       <Header />
@@ -22,7 +23,7 @@ function WebPages() {
           <div className="w-56 mx-auto mt-5">
             <a
               className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500 flex"
-              href="https://api.whatsapp.com/send?phone=51938151392&text=Hey%2C%20quiero%20un%20diseño!"
+              href={`https://api.whatsapp.com/send?phone=51938151392&text=Hola%2C%20quiero%20${mensaje}!`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -42,7 +43,7 @@ function WebPages() {
             className="w-full p-2 grid md:grid-cols-2 lg:flex items-center justify-center
     py-5 px-5 cursor-default mx-auto lg:space-x-12"
           >
-            {data.webpagesImgs.map((item) => (
+            {data.webpagesImgs.map(item => (
               <div key={item.id} className="my-8">
                 <h1 className="my-2 uppercase font-bold text-xl text-gray-200">
                   {item.name}

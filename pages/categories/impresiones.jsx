@@ -3,6 +3,7 @@ import Layout from "../../components/Layout";
 import data from "../../utils/data";
 
 function Impresiones() {
+  var mensaje = "impresion Inkjet";
   return (
     <Layout title="Impresiones">
       <div className="py-5 px-2 flex flex-col items-center mx-auto text-center">
@@ -16,7 +17,7 @@ function Impresiones() {
         </p>
         <a
           className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500 flex"
-          href="https://api.whatsapp.com/send?phone=51938151392&text=Hey%2C%20quiero%20un%20diseño!"
+          href={`https://api.whatsapp.com/send?phone=51938151392&text=Hola%2C%20quiero%20${mensaje}!`}
           target="_blank"
           rel="noopener noreferrer"
         >

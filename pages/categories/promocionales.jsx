@@ -1,8 +1,9 @@
-import data from "../../utils/data";
-import Layout from "../../components/Layout";
-import Image from "next/image";
+import data from '../../utils/data';
+import Layout from '../../components/Layout';
+import Image from 'next/image';
 
 function Promocionales() {
+  var mensaje = 'un articulo';
   return (
     <Layout title="Promocionales">
       <div className="py-5 px-2 flex flex-col items-center text-center mx-auto w-full">
@@ -14,7 +15,7 @@ function Promocionales() {
         </p>
         <a
           className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500 flex"
-          href="https://api.whatsapp.com/send?phone=51938151392&text=Hey%2C%20quiero%20un%20diseño!"
+          href={`https://api.whatsapp.com/send?phone=51938151392&text=Hola%2C%20quiero%20${mensaje}!`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -34,7 +35,7 @@ function Promocionales() {
             className="w-full p-2 grid md:grid-cols-2 items-center justify-center
     py-5 px-5 cursor-default md:space-x-20"
           >
-            {data.promocionalesImgs.map((item) => (
+            {data.promocionalesImgs.map(item => (
               <div key={item.id} className="my-3">
                 <Image
                   loading="lazy"
