@@ -14,7 +14,7 @@ Email: giovanni@gmail.com
 Password: 123456
 
 ## Tech Used
-<img align="left" alt="NextJS" width="40px" height="40px" src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png" />
+<img align="left" alt="NextJS" width="40px" height="40px" src="https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png" />
 <img align="left" alt="Tailwind CSS" width="40px" height="40px" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" />
 <img align="left" alt="Mongo DB" width="40px" height="40px" src="https://cdn.iconscout.com/icon/free/png-256/mongodb-5-1175140.png" />
 
