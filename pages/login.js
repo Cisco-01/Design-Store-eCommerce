@@ -82,7 +82,7 @@ export default function LoginScreen() {
         </div>
         <div className="mb-4 items-center text-center">
           <button
-            className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500"
+            className="primary-button outline-double outline-3 outline-offset-2 outline-green-500"
           >
             Login
           </button>

@@ -1,4 +1,3 @@
-import DatosEmpresa from "../components/DatosEmpresa";
 import Map from "../components/Map";
 import Layout from "../components/Layout";
 
@@ -9,7 +8,6 @@ function Contact() {
         <h1 className="text-center uppercase font-thin text-3xl">Ubícanos</h1>
       </div>
       <Map />
-      <DatosEmpresa />
     </Layout>
   );
 }

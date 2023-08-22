@@ -120,7 +120,7 @@ export default function AdminProdcutsScreen() {
             <button
               disabled={loadingCreate}
               onClick={createHandler}
-              className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500 mr-2 "
+              className="primary-button outline-double outline-3 outline-offset-2 outline-green-500 mr-2 "
             >
               {loadingCreate ? 'Cargando' : 'Crear'}
             </button>

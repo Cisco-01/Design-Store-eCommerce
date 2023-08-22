@@ -132,8 +132,8 @@ export default function LoginScreen() {
         <div className="mb-4 items-center text-center">
           <button
             className="px-3 py-1 mx-auto uppercase mt-3 bg-stone-900 hover:scale-105 shadow-md
-          rounded-full text-gray-50 hover:text-black hover:bg-lime-500 transition duration-500 ease-in-out
-          outline-double outline-3 outline-offset-2 outline-lime-500 hover:outline-transparent"
+          rounded-full text-gray-50 hover:text-black hover:bg-green-500 transition duration-500 ease-in-out
+          outline-double outline-3 outline-offset-2 outline-green-500 hover:outline-transparent"
           >
             Register
           </button>

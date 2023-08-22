@@ -60,7 +60,7 @@ export default function ShippingScreen() {
         <div className="mb-4">
           <label htmlFor="fullName">Nombres</label>
           <input
-            className="w-full ring-lime-400"
+            className="w-full ring-green-400"
             id="fullName"
             autoFocus
             {...register("fullName", {
@@ -74,7 +74,7 @@ export default function ShippingScreen() {
         <div className="mb-4">
           <label htmlFor="address">Dirección</label>
           <input
-            className="w-full ring-lime-400"
+            className="w-full ring-green-400"
             id="address"
             {...register("address", {
               required: "Ingrese una dirección",
@@ -91,7 +91,7 @@ export default function ShippingScreen() {
         <div className="mb-4">
           <label htmlFor="city">Ciudad</label>
           <input
-            className="w-full ring-lime-400"
+            className="w-full ring-green-400"
             id="city"
             {...register("city", {
               required: "Ingrese ciudad",
@@ -104,7 +104,7 @@ export default function ShippingScreen() {
         <div className="mb-4">
           <label htmlFor="postalCode">Código Postal</label>
           <input
-            className="w-full ring-lime-400"
+            className="w-full ring-green-400"
             id="postalCode"
             {...register("postalCode", {
               required: "Ingrese código postal",
@@ -117,7 +117,7 @@ export default function ShippingScreen() {
         <div className="mb-4">
           <label htmlFor="country">País</label>
           <input
-            className="w-full ring-lime-400"
+            className="w-full ring-green-400"
             id="country"
             {...register("country", {
               required: "Ingrese un país",
@@ -128,7 +128,7 @@ export default function ShippingScreen() {
           )}
         </div>
         <div className="mb-4 flex justify-between">
-          <button className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500">
+          <button className="primary-button outline-double outline-3 outline-offset-2 outline-green-500">
             Siguiente
           </button>
         </div>

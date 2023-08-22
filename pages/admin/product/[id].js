@@ -109,8 +109,11 @@ const [{ loading, error, loadingUpdate/*, loadingUpload*/ }, dispatch] =
     category,
     image,
     brand,
+    size,
     countInStock,
     description,
+    rating,
+    numReviews,
   }) => {
     try {
       dispatch({ type: 'UPDATE_REQUEST' });
@@ -121,8 +124,11 @@ const [{ loading, error, loadingUpdate/*, loadingUpload*/ }, dispatch] =
         category,
         image,
         brand,
+        size,
         countInStock,
         description,
+        rating,
+        numReviews,
       });
       dispatch({ type: 'UPDATE_SUCCESS' });
       toast.success('Product updated successfully');
@@ -222,6 +228,48 @@ const [{ loading, error, loadingUpdate/*, loadingUpload*/ }, dispatch] =
                   <div className="text-red-500">{errors.image.message}</div>
                 )}
               </div>
+              <div className="mb-4">
+                <label htmlFor="size">Tallas</label>
+                <input
+                  type="text"
+                  className="w-full"
+                  id="size"
+                  {...register('size', {
+                    required: 'Ingrese tallas',
+                  })}
+                />
+                {errors.slug && (
+                  <div className="text-red-500">{errors.size.message}</div>
+                )}
+              </div>
+              <div className="mb-4">
+                <label htmlFor="rating">Rating</label>
+                <input
+                  type="number"
+                  className="w-full"
+                  id="rating"
+                  {...register('rating', {
+                    required: 'Ingrese el rating',
+                  })}
+                />
+                {errors.image && (
+                  <div className="text-red-500">{errors.rating.message}</div>
+                )}
+              </div>
+              <div className="mb-4">
+                <label htmlFor="numReviews">Número de vistas</label>
+                <input
+                  type="number"
+                  className="w-full"
+                  id="numReviews"
+                  {...register('numReviews', {
+                    required: 'Ingrese cantidad de vistas',
+                  })}
+                />
+                {errors.image && (
+                  <div className="text-red-500">{errors.numReviews.message}</div>
+                )}
+              </div>
               {/*<div className="mb-4">
                 <label htmlFor="imageFile">Subir Imagen</label>
                 <input
@@ -294,7 +342,7 @@ const [{ loading, error, loadingUpdate/*, loadingUpload*/ }, dispatch] =
                 )}
               </div>
               <div className="mb-4">
-                <button disabled={loadingUpdate} className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500">
+                <button disabled={loadingUpdate} className="primary-button outline-double outline-3 outline-offset-2 outline-green-500">
                   {loadingUpdate ? 'Cargando' : 'Actualizar'}
                 </button>
               </div>

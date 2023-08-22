@@ -32,7 +32,7 @@ function Auth({ children, adminOnly }) {
     },
   });
   if (status === "loading") {
-    return <div>Cargando...</div>;
+    return <div className="text-center ">Cargando...</div>;
   }
   if (adminOnly && !session.user.isAdmin) {
     router.push("/unauthorized?message=Se requiere acceso como administrador");

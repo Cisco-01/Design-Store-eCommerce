@@ -14,7 +14,7 @@ export default function ProductScreen(props) {
   const { state, dispatch } = useContext(Store);
   const router = useRouter();
   if (!product) {
-    return <Layout title="Produt Not Found">Servicio no encontrado</Layout>;
+    return <Layout title="Product Not Found">Servicio no encontrado</Layout>;
   }
 
   const addToCartHandler = async () => {
@@ -34,7 +34,7 @@ export default function ProductScreen(props) {
     <Layout title={product.name}>
       <div className="container m-auto mt-4 px-4">
         <Link href="/" passHref>
-          <button className="my-3 border-b-2 border-b-lime-500">
+          <button className="my-3 border-b-2 border-b-green-500">
             Regresar a los servicios
           </button>
         </Link>
@@ -57,8 +57,9 @@ export default function ProductScreen(props) {
               <li>Categoria: {product.category}</li>
               <li>Marca: {product.brand}</li>
               <li>
-                {product.rating} de {product.numReviews} vistas
+                Rating: {product.rating} {"⭐"}
               </li>
+              <li>Vistas: {product.numReviews}</li>
               <li>Descripción: {product.description}</li>
             </ul>
           </div>
@@ -75,7 +76,7 @@ export default function ProductScreen(props) {
                 </div>
               </div>
               <button
-                className="primary-button w-full outline-double outline-3 outline-offset-2 outline-lime-500"
+                className="primary-button w-full outline-double outline-3 outline-offset-2 outline-green-500"
                 onClick={addToCartHandler}
               >
                 Agregar al carrito

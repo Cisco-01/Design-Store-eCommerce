@@ -48,6 +48,7 @@ function CartScreen() {
                 <tr>
                   <th className="p-5 text-left">Item</th>
                   <th className="p-5 text-right">Cantidad</th>
+                  <th className="p-5 text-right">Talla</th>
                   <th className="p-5 text-right">Precio</th>
                   <th className="p-5">Action</th>
                 </tr>
@@ -83,6 +84,9 @@ function CartScreen() {
                         ))}
                       </select>
                     </td>
+                    <td className="p-5 text-right">
+                      {item.size}
+                    </td>
                     <td className="p-5 text-right">${item.price}</td>
                     <td className="p-5 text-center">
                       <button onClick={() => removeItemHandler(item)}>
@@ -105,7 +109,7 @@ function CartScreen() {
               </li>
               <li>
                 <button
-                  className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500"
+                  className="primary-button outline-double outline-3 outline-offset-2 outline-green-500"
                   onClick={() => router.push("login?redirect=/shipping")}
                 >
                   Check Out

@@ -29,39 +29,34 @@ function Header() {
     signOut({ callbackUrl: "/login" });
   };
   return (
-    <header className="sticky top-0 z-50 bg-slate-200">
-      <nav className="flex h-24 items-center justify-around shadow-md">
+    <header className="sticky top-0 z-50 bg-neutral-900">
+      <nav className="flex h-20 items-center justify-around shadow-2xl">
         <Link href={`/`} passHref>
           <div className="ml-5 text-2xl md:text-4xl flex space-x-2">
             <span
-              className="text-stone-900 hover:text-lime-500 
+              className="bg-clip-text text-transparent 
+              bg-gradient-to-r from-purple-500 to-green-500 hover:from-green-500 hover:to-purple-500 
         cursor-pointer"
             >
-              GIOVANNI
-            </span>
-            <span
-              className="text-lime-500 hover:text-stone-900 
-        cursor-pointer"
-            >
-              DESIGNS
+              GEEK SHOP
             </span>
           </div>
         </Link>
-        <div className="hidden md:flex space-x-4 items-center text-lg">
+        <div className="hidden md:flex space-x-4 items-center text-lg text-green-500">
           <Link href="/store" passHref>
             <div className="p-2 flex items-center cursor-default">
               Store
-              <ShoppingBagIcon className="h-5 w-5 cursor-pointer hover:text-lime-500" />
+              <ShoppingBagIcon className="h-5 w-5 cursor-pointer hover:text-purple-500" />
             </div>
           </Link>
 
           <Link href="/cart" passHref>
             <div className="p-2 flex items-center cursor-default">
               Cart
-              <ShoppingCartIcon className="h-5 w-5 cursor-pointer hover:text-lime-500" />
+              <ShoppingCartIcon className="h-5 w-5 cursor-pointer hover:text-purple-500" />
               {cartItemsCount > 0 && (
                 <span
-                  className="absolute ml-12 mb-6 rounded-full bg-lime-500 px-2 py-1 
+                  className="absolute ml-12 mb-6 rounded-full bg-purple-500 px-2 py-1 
                     text-xs font-bold text-slate-200"
                 >
                   {cartItemsCount}
@@ -70,12 +65,12 @@ function Header() {
             </div>
           </Link>
 
-          <Link href="/contact" passHref>
+          {/*<Link href="/contact" passHref>
             <div className="p-2 flex items-center cursor-default">
               Contact
-              <MapPinIcon className="h-5 w-5 cursor-pointer hover:text-lime-500" />
+              <MapPinIcon className="h-5 w-5 cursor-pointer hover:text-purple-500" />
             </div>
-          </Link>
+          </Link>*/}
 
           {status === "cargando" ? (
             "Cargando"
@@ -84,7 +79,8 @@ function Header() {
               <Menu.Button
                 className="hover:rounded-md 
                     cursor-pointer p-2 my-2
-                    hover:shadow-md hover:text-lime-500 hover:scale-110
+                    hover:shadow-md bg-clip-text text-transparent 
+                    bg-gradient-to-r from-green-500 to-purple-500 hover:scale-110
                     hover:duration-500"
               >
                 {session.user.name}
@@ -126,7 +122,8 @@ function Header() {
               <button
                 className="hover:rounded-md 
                     cursor-pointer
-                    hover:shadow-md hover:text-red-400 hover:scale-110
+                    hover:shadow-md bg-clip-text text-transparent 
+                    bg-gradient-to-r from-green-500 to-purple-500 hover:scale-110
                     hover:duration-500"
               >
                 Login

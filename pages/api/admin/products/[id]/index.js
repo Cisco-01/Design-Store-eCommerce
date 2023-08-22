@@ -34,9 +34,12 @@ const putHandler = async (req, res) => {
     product.price = req.body.price;
     product.category = req.body.category;
     product.image = req.body.image;
+    product.size = req.body.size;
     product.brand = req.body.brand;
     product.countInStock = req.body.countInStock;
     product.description = req.body.description;
+    product.rating = req.body.rating;
+    product.numReviews = req.body.numReviews;
     await product.save();
     await db.disconnect();
     res.send({ message: 'Servicio actualizado satisfactoriamente' });

@@ -22,7 +22,7 @@ export default function PlaceOrderScreen() {
   ); // 123.4567 => 123.46
 
   const shippingPrice = itemsPrice > 200 ? 0 : 15;
-  const taxPrice = round2(itemsPrice * 0.15);
+  const taxPrice = round2(itemsPrice * 0.18);
   const totalPrice = round2(itemsPrice + shippingPrice + taxPrice);
 
   const router = useRouter();
@@ -81,14 +81,14 @@ export default function PlaceOrderScreen() {
                 {shippingAddress.country}
               </div>
               <Link href="/shipping">
-                <a className="text-lime-600 hover:text-lime-500">Editar</a>
+                <a className="text-purple-600 hover:text-green-500">Editar</a>
               </Link>
             </div>
             <div className="card  p-5">
               <h2 className="mb-2 text-lg">Método de Pago</h2>
               <div>{paymentMethod}</div>
               <Link href="/payment">
-                <a className="text-lime-600 hover:text-lime-500">Editar</a>
+                <a className="text-purple-600 hover:text-green-500">Editar</a>
               </Link>
             </div>
             <div className="card overflow-x-auto p-5">
@@ -130,7 +130,7 @@ export default function PlaceOrderScreen() {
                 </tbody>
               </table>
               <Link href="/cart">
-                <a className="text-lime-600 hover:text-lime-500">Editar</a>
+                <a className="text-purple-600 hover:text-green-500">Editar</a>
               </Link>
             </div>
           </div>
@@ -166,7 +166,7 @@ export default function PlaceOrderScreen() {
                   <button
                     disabled={loading}
                     onClick={placeOrderHandler}
-                    className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500 w-full"
+                    className="primary-button outline-double outline-3 outline-offset-2 outline-green-500 w-full"
                   >
                     {loading ? "Cargando..." : "Realizar Pedido"}
                   </button>

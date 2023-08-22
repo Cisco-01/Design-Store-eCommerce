@@ -126,7 +126,7 @@ export default function ProfileScreen() {
             )}
         </div>
         <div className="mb-4">
-          <button className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500">Actualizar Perfil</button>
+          <button className="primary-button outline-double outline-3 outline-offset-2 outline-green-500">Actualizar Perfil</button>
         </div>
       </form>
     </Layout>

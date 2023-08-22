@@ -170,7 +170,7 @@ export default function AdminUserEditScreen() {
               <div className="mb-4">
                 <button
                   disabled={loadingUpdate}
-                  className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500"
+                  className="primary-button outline-double outline-3 outline-offset-2 outline-green-500"
                 >
                   {loadingUpdate ? "Cargando" : "Actualizar"}
                 </button>

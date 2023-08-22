@@ -68,7 +68,7 @@ export default function PaymentScreen() {
             >
               Regresar
             </button>
-            <button className="primary-button outline-double outline-3 outline-offset-2 outline-lime-500">
+            <button className="primary-button outline-double outline-3 outline-offset-2 outline-green-500">
               Siguiente
             </button>
           </div>
