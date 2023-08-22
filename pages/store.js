@@ -39,12 +39,11 @@ export default function StoreScreen({ products }) {
       <div className="py-5 px-2 flex flex-col items-center">
         <Banner />
         {Object.keys(productsByCategory).map(category => (
-          <div id={category}>
-            <h1 className="text-center text-lg uppercase mt-5 mb-3">{category}</h1>
-            <div
-              key={category}
-              className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4"
-            >
+          <div id={category} key={category}>
+            <h1 className="text-center text-lg uppercase mt-5 mb-3">
+              {category}
+            </h1>
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4">
               {productsByCategory[category].map(product => (
                 <ProductItem
                   product={product}

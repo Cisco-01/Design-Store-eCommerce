@@ -7,7 +7,6 @@ import { useContext, useEffect, useState } from "react";
 import { Menu } from "@headlessui/react";
 import { Store } from "../utils/Store";
 import {
-  MapPinIcon,
   ShoppingBagIcon,
   ShoppingCartIcon,
 } from "@heroicons/react/24/outline";
