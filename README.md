@@ -1,7 +1,5 @@
 # Design Store ECommerce
 
-![giovanni's designs](/public/app.png)
-
 · <a href="https://giovanni-designs.vercel.app" target="_blank" rel="noopener noreferrer">DEMO</a>
 
 ## About This Project
