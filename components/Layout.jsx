@@ -9,7 +9,7 @@ export default function Layout({ title, children }) {
     <>
       <Head>
         <title>
-          {title ? title + " - GEEK SHOP" : "GEEK SHOP"}
+          {title ? title + " - GEEK DESIGNS" : "GEEK DESIGNS"}
         </title>
         <meta name="description" content="Giovanni's Ecommerce" />
         <link rel="icon" href="/favicon.ico" />

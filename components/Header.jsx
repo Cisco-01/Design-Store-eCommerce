@@ -37,7 +37,7 @@ function Header() {
               bg-gradient-to-r from-purple-500 to-green-500 hover:from-green-500 hover:to-purple-500 
         cursor-pointer"
             >
-              GEEK SHOP
+              GEEK DESIGNS
             </span>
           </div>
         </Link>

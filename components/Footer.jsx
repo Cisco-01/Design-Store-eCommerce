@@ -18,7 +18,7 @@ function Footer() {
           {" | "}
           <p className="flex items-center">
             <EnvelopeIcon className="h-5 w-5 mr-1 my-2 hidden sm:flex" />
-            contact@geekshop.com
+            contact@geekdesigns.com
           </p>
           {" | "}
           <p className="flex items-center">
@@ -31,7 +31,7 @@ function Footer() {
       </div>
       <MetodoPago />
       <p className="bottom-0 text-left pl-5 my-2">
-        © 2023 Geek Shop
+        © 2023 Geek Designs
       </p>
     </footer>
   );
